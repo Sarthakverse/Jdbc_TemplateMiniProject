@@ -9,14 +9,23 @@
 
 ## Add New Student:
 ### 📝 Allows adding a new student to the database.
+
+
 ## Fetch All Students:
 ### 📋 Retrieves a list of all students from the database.
+
+
 ## Fetch Student by ID:
 ### 🔍 Retrieves a specific student by their ID from the database.
+
+
 ## Update Student:
 ### 🔄 Updates the information of an existing student in the database.
+
+
 ## Delete Student:
 ### 🗑️ Deletes a student from the database based on their ID.
+
 
 # 💻 Technologies Used:
 ## Java 17

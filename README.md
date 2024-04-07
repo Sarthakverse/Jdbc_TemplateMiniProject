@@ -4,8 +4,7 @@
 ![Screenshot 2024-04-07 224950](https://github.com/Sarthakverse/Jdbc_TemplateMiniProject/assets/117356021/778f61dc-ff0f-4aa7-8507-83289cc90605)
 
 ## Documentation
-
-[Documentation]([https://linktodocumentation](https://documenter.getpostman.com/view/29367403/2sA35MxyXt))
+[Documentation](https://documenter.getpostman.com/view/29367403/2sA35MxyXt)
 
 # 🚀 Features:
 

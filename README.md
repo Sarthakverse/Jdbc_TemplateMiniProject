@@ -5,7 +5,7 @@
 
 ## Documentation
 
-[Documentation](https://linktodocumentation)
+[Documentation]([https://linktodocumentation](https://documenter.getpostman.com/view/29367403/2sA35MxyXt))
 
 # 🚀 Features:
 

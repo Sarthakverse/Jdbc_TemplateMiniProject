@@ -6,6 +6,7 @@
 ## Documentation link:- https://documenter.getpostman.com/view/29367403/2sA35MxyXt
 
 # 🚀 Features:
+
 ## Add New Student:
 ### 📝 Allows adding a new student to the database.
 ## Fetch All Students:
@@ -24,7 +25,7 @@
 ## PostgreSQL
 ## Maven
 
-#🏃‍♂️ How to Run:
+# 🏃‍♂️ How to Run:
 ### Ensure you have PostgreSQL installed and running on your local machine.
 ### Clone this repository.
 ### Open the project in your preferred IDE.
@@ -32,7 +33,7 @@
 ### Run the JdbcTemplateMiniProjectApplication.java class to start the Spring Boot application.
 ### The application will be accessible at http://localhost:8080.
 
-#🛠️ Endpoints:
+# 🛠️ Endpoints:
 
 ## Add New Student:
 ### URL: POST /students/addStudent
@@ -58,5 +59,5 @@
 ### Path Variable: id - ID of the student to delete.
 ### Response: Success message or error message.
 
-## 🚀 Deployment:
+# 🚀 Deployment:
 ### You can deploy this application on any cloud platform like Heroku, AWS, or Azure by packaging it into a JAR file and configuring the necessary environment variables for the database connection.

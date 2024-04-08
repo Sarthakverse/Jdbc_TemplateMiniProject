@@ -3,6 +3,7 @@ package com.example.jdbctemplate_miniproject.controller;
 import com.example.jdbctemplate_miniproject.entity.Student;
 import com.example.jdbctemplate_miniproject.exceptions.ServiceException;
 import com.example.jdbctemplate_miniproject.service.StudentService;
+import jakarta.validation.Valid;
 import jakarta.websocket.server.PathParam;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.coyote.Response;
@@ -10,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -17,6 +19,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/students")
 @Slf4j
+@Validated
 public class StudentController {
 
     // I haven't used autowiring because it is not recommended to use field injection
@@ -31,7 +34,7 @@ public class StudentController {
 
 //---------------------------------------------------------------------------------------------------------------------
     @PostMapping("/addStudent")
-    public ResponseEntity<String> addNewStudent(@RequestBody Student student)
+    public ResponseEntity<String> addNewStudent(@Valid @RequestBody Student student)
     {
             try {
                 log.info("Received request to add a new student");
@@ -87,7 +90,7 @@ public class StudentController {
     }
 
     @PutMapping("/updateStudent")
-    public ResponseEntity<String> updateStudent(@RequestBody Student student)
+    public ResponseEntity<String> updateStudent(@Valid @RequestBody Student student)
     {
         try{
             if(studentService.updateStudent(student) == 1)
